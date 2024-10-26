@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const { ObjectId } = require('mongodb');
+require('dotenv').config();
 
 
 const app = express()
