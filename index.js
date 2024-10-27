@@ -14,6 +14,7 @@ const port = 5000
 app.use(cors({
     origin: [
         'http://localhost:5173',
+        'https://bikehub-36d8b.web.app'
     ],
     credentials: true
 }));
